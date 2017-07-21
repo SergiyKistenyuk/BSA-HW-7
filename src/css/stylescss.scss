@@ -1,0 +1,21 @@
+$primary-color: #3F3F3F;
+.container {
+  color: $primary-color;
+  animation-name: animation;
+  animation-duration: 3s;
+}
+@keyframes animation {
+  from {color: #ff0000;}
+  to {color: $primary-color;}
+}
+.container {
+  div {
+    float: left;
+    margin: 5px;
+  }
+}
+img {
+  @extend div;
+    clear: both;
+}
+/*zzzzzzzzzzzzzzzzzz*/

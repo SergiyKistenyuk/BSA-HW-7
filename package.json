@@ -1,0 +1,39 @@
+{
+  "name": "w_webpack_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "autoprefixer-loader": "^3.2.0",
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.17.4",
+    "postcss-loader": "^2.0.6",
+    "stripcomment-loader": "^0.1.0",
+    "uglify-js": "^1.3.5",
+    "url-loader": "^0.5.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "image-webpack-loader": "^3.3.1",
+    "img-loader": "^2.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.3.0"
+  }
+}
