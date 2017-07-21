@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^7.1.2",
     "autoprefixer-loader": "^3.2.0",
     "bootstrap-css": "^4.0.0-alpha.5",
     "jshint": "^2.9.5",

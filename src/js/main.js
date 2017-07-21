@@ -14,6 +14,6 @@ const users = [
     { name: 'Andriy', age: 33}, 
     { name: 'Zakhar', age: 40}
 ];
-
+if(users[0].name != users[1].name) {console.log(123);}
 const userListModule = new userList(users);
 userListModule.showList();

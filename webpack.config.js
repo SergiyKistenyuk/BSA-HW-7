@@ -1,11 +1,9 @@
 const webpack = require("webpack");
-const autoprefixer = require('autoprefixer');
-const stripcomment = require('stripcomment-loader');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
 	context: __dirname,
-	devtool: "eval-source-map",
+	devtool: false,
 	entry: "./src/js/main.js",
 	output: {
 		path: __dirname + "/dist",
@@ -66,11 +64,6 @@ module.exports = {
                     'url-loader?limit=10000',
                     'img-loader'
                 ]
-            },
-            {
-                enforce: 'pre',
-                test: /\.js$/,
-                loader: require.resolve("stripcomment-loader")+"?-line&-block"
             }
 		]
 	},
